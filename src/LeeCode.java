@@ -23,7 +23,7 @@ public class LeeCode {
                 //遍历之前的几个解
                 List<Integer> element = new ArrayList<>(list.get(j));
              //   每次在上次的结果中多加一个重复的数字
-                for(int t = 0 ; t < d ; t++){
+                for(int t = 0 ; t <= d ; t++){
                     //加入重复的数字
                     element.add(num[i]);
                     list.add(new ArrayList<>(element));
